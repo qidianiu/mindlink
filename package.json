@@ -1,0 +1,24 @@
+{
+  "name": "mindlink",
+  "version": "1.0.0",
+  "description": "思维链 MindLink——无需登录的在线思维导图与卡片式写作工具，数据本地存储不上云，安全隐私。支持时间片段写作、目标整理、小说创作分镜、演讲稿编排、AI提示词管理",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "@vue-flow/background": "^1.3.2",
+    "@vue-flow/controls": "^1.1.3",
+    "@vue-flow/core": "^1.48.2",
+    "konva": "^10.3.0",
+    "uuid": "^14.0.0",
+    "vue": "^3.5.34",
+    "vue-konva": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.11"
+  }
+}
