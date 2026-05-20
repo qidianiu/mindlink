@@ -1,4 +1,5 @@
 import { ref, reactive, watch, toRaw } from 'vue'
+import defaultData from '../../public/思维链-2026-05-20.json'
 
 const STORAGE_KEY = 'mindlink-canvas-data'
 const STORAGE_VERSION = 2
@@ -168,9 +169,14 @@ export function useCanvasStore() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY)
       if (!raw) {
-        const doc = createDocData()
+        const doc = createDocData(defaultData.name || '默认文档')
+        doc.cards = defaultData.cards || []
+        doc.connections = defaultData.connections || []
+        doc.viewport = defaultData.viewport || { x: 0, y: 0, zoom: 1 }
+        doc.bgColor = defaultData.bgColor || '#fce4ec'
         docs.push(doc)
         activeDocId.value = doc.id
+        syncFromDoc()
         return
       }
       const data = JSON.parse(raw)

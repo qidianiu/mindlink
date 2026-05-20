@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "name": "思维链",
+  "cards": [
+    {
+      "id": "1c89fc8d-175a-4114-9b5d-86a54ac08307",
+      "x": 1116.496039743235,
+      "y": 291.58574724564835,
+      "width": 200,
+      "height": 157,
+      "rotation": 0,
+      "text": "在无限画布上自由链接思维卡片，支持时间片段写作、目标整理、小说创作分镜、演讲稿编排、AI 提示词管理等场景。",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "思维链"
+    },
+    {
+      "id": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "x": 681.9657372282372,
+      "y": 498.03476450733774,
+      "width": 200,
+      "height": 80,
+      "rotation": 0,
+      "text": "",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "功能特性"
+    },
+    {
+      "id": "d984c2f5-9ece-4bb3-9ad9-a5c90f2b2084",
+      "x": 858.2000732421875,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "JSON 格式导出/导入，方便备份与迁移",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "数据导入导出"
+    },
+    {
+      "id": "e9a1cf73-1eff-4507-8036-a0644148e16e",
+      "x": 858.2000732421875,
+      "y": 648.174667797187,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "拖拽对齐辅助线、重叠自动排斥、链条整体拖拽与旋转",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "智能布局"
+    },
+    {
+      "id": "9b2f61fd-86bd-459a-be9c-9a8cecfcb5dd",
+      "x": 358.79178552025326,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "按 DFS 顺序全屏展示卡片，支持翻页与前后预览",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "演示模式"
+    },
+    {
+      "id": "d7d9f85c-3e5f-4102-8907-e91f7691ba34",
+      "x": 117.57751445535473,
+      "y": 643.674667797187,
+      "width": 200,
+      "height": 129,
+      "rotation": 0,
+      "text": "自由拖拽平移、滚轮缩放，触屏双指缩放，右下角小地图快速定位",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "无限画布"
+    },
+    {
+      "id": "3b289249-d9bf-4801-a863-b59272d041cb",
+      "x": 601.121684566567,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "数据持久化至 localStorage，不上云、无需登录",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "本地存储"
+    },
+    {
+      "id": "aaa3814a-c7c4-4017-abe4-96d763afd505",
+      "x": 601.121684566567,
+      "y": 643.674667797187,
+      "width": 200,
+      "height": 129,
+      "rotation": 0,
+      "text": "兄弟连线（链式顺序）与父子连线（层级从属），带合法性校验防环路",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "双类型连线"
+    },
+    {
+      "id": "9f32cd55-854b-42f8-bfd8-07fe2f87d279",
+      "x": 358.79178552025326,
+      "y": 643.674667797187,
+      "width": 200,
+      "height": 129,
+      "rotation": 0,
+      "text": "拖拽定位、调整尺寸、双击编辑标题与正文，自动编号",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "卡片节点"
+    },
+    {
+      "id": "c34c3cd9-d6fd-4d69-9408-ac3d51ae0e90",
+      "x": 117.57751445535473,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 129,
+      "rotation": 0,
+      "text": "创建、切换、重命名、删除，每文档独立数据",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "多文档管理",
+      "repelling": false
+    },
+    {
+      "id": "4153fee1-a115-4bb9-abcf-e62e778e5318",
+      "x": 858.2000732421875,
+      "y": 1034.3680282484704,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "响应式设计，支持桌面端与移动端触控操作",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "多端适配",
+      "repelling": false
+    },
+    {
+      "id": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "x": 1566.341553342651,
+      "y": 498.03476450733774,
+      "width": 200,
+      "height": 80,
+      "rotation": 0,
+      "text": "",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "操作说明"
+    },
+    {
+      "id": "968c5ba2-f9ef-40f1-a6f0-29ea4fad1ccd",
+      "x": 1644.7852403542572,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "点击卡片左侧蓝色连接点，再点击目标卡片",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "连线（父子）"
+    },
+    {
+      "id": "5048e05d-f509-458b-be77-9990e9830d4a",
+      "x": 1378.7705056552888,
+      "y": 648.174667797187,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "鼠标拖拽空白区域 / 触屏单指滑动",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "平移画布"
+    },
+    {
+      "id": "e40079ee-3e0e-4170-a436-72856ff7fa56",
+      "x": 2192.916176072136,
+      "y": 648.174667797187,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "双击卡片",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "编辑卡片"
+    },
+    {
+      "id": "99dbefee-46be-4349-8726-260f080b76e3",
+      "x": 1908.9812401735094,
+      "y": 648.174667797187,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "双击画布空白处 / 点击工具栏 + 按钮",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "新建卡片"
+    },
+    {
+      "id": "6101a04b-d829-4bc6-aa80-17d945382405",
+      "x": 1644.7852403542572,
+      "y": 648.174667797187,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "滚轮 / 触屏双指缩放",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "缩放画布"
+    },
+    {
+      "id": "fd13c970-10d7-48f5-8337-ad95550b64a7",
+      "x": 1378.7705056552888,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "点击卡片左侧粉色连接点，再点击目标卡片",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "连线（兄弟）"
+    },
+    {
+      "id": "5871f478-4c83-478f-9659-03eedb6e28f4",
+      "x": 1378.7705056552888,
+      "y": 1022.4055862126224,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "Ctrl + 方向键",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "链内导航"
+    },
+    {
+      "id": "a9f51792-216d-459c-83a6-bfd0e676f9df",
+      "x": 2192.916176072136,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "选中卡片后按方向键（Shift 加速）",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "微调位置"
+    },
+    {
+      "id": "2f10b508-cc73-4634-aca2-38dcb14404d7",
+      "x": 1908.9812401735094,
+      "y": 818.6729664986544,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "点击连线",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "删除连线"
+    },
+    {
+      "id": "ccd97ea0-5a38-4a7e-8311-77afc312ab8a",
+      "x": 1644.7852403542572,
+      "y": 1022.4055862126224,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "选中后按 Delete 键 / 点击卡片删除按钮",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "repelling": false,
+      "title": "删除卡片"
+    },
+    {
+      "id": "0498a6f3-bee8-4b42-b49a-3a3ad80abeaa",
+      "x": 1908.9812401735094,
+      "y": 1022.4055862126224,
+      "width": 200,
+      "height": 120,
+      "rotation": 0,
+      "text": "点击工具栏演示按钮，方向键或空格翻页，ESC 退出",
+      "color": "#ffffff",
+      "zIndex": 999,
+      "title": "演示模式"
+    }
+  ],
+  "connections": [
+    {
+      "id": "0e84c18b-8a69-46da-a725-04362be4719e",
+      "from": "1c89fc8d-175a-4114-9b5d-86a54ac08307",
+      "to": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "type": "alt"
+    },
+    {
+      "id": "1fd07315-4b60-47a9-a7d0-062bf7c948a9",
+      "from": "1c89fc8d-175a-4114-9b5d-86a54ac08307",
+      "to": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "type": "alt"
+    },
+    {
+      "id": "39d5befe-c579-4a23-9aef-88655f736ae3",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "d7d9f85c-3e5f-4102-8907-e91f7691ba34",
+      "type": "alt"
+    },
+    {
+      "id": "202c3e5f-01c7-432d-a8c1-0924dcffa02a",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "9f32cd55-854b-42f8-bfd8-07fe2f87d279",
+      "type": "alt"
+    },
+    {
+      "id": "d2d6fd3d-b217-4d5f-9ecb-fb85625259b6",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "aaa3814a-c7c4-4017-abe4-96d763afd505",
+      "type": "alt"
+    },
+    {
+      "id": "662f51bb-9bcf-442c-bef7-921aaee3d953",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "e9a1cf73-1eff-4507-8036-a0644148e16e",
+      "type": "alt"
+    },
+    {
+      "id": "5d1c40bc-a637-44d0-9097-b96e80e6137c",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "c34c3cd9-d6fd-4d69-9408-ac3d51ae0e90",
+      "type": "alt"
+    },
+    {
+      "id": "3266878b-17b1-4db9-bb87-634b599c7721",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "9b2f61fd-86bd-459a-be9c-9a8cecfcb5dd",
+      "type": "alt"
+    },
+    {
+      "id": "d5bab4c9-5b4b-446e-b75e-a5460c3292aa",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "3b289249-d9bf-4801-a863-b59272d041cb",
+      "type": "alt"
+    },
+    {
+      "id": "ed7f2987-930f-45b9-935d-fc5ff486e8b0",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "d984c2f5-9ece-4bb3-9ad9-a5c90f2b2084",
+      "type": "alt"
+    },
+    {
+      "id": "ab77daeb-ab9c-466d-834a-54156935706a",
+      "from": "4f0b2e9c-b31e-4487-8933-e99e786fb8a9",
+      "to": "4153fee1-a115-4bb9-abcf-e62e778e5318",
+      "type": "alt"
+    },
+    {
+      "id": "13c78320-9b05-4d63-80f6-3d0ae420b501",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "5048e05d-f509-458b-be77-9990e9830d4a",
+      "type": "alt"
+    },
+    {
+      "id": "38955a75-2968-439b-8ac3-caaab6fba741",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "6101a04b-d829-4bc6-aa80-17d945382405",
+      "type": "alt"
+    },
+    {
+      "id": "a06c55c8-67d9-4955-9530-6ffd4aff0074",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "99dbefee-46be-4349-8726-260f080b76e3",
+      "type": "alt"
+    },
+    {
+      "id": "17d13ca8-71c2-4146-87d0-fca734226da1",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "e40079ee-3e0e-4170-a436-72856ff7fa56",
+      "type": "alt"
+    },
+    {
+      "id": "4d98b56a-6d24-48eb-a907-e50ebc35ce76",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "fd13c970-10d7-48f5-8337-ad95550b64a7",
+      "type": "alt"
+    },
+    {
+      "id": "b6b72a50-2efe-4349-8b28-ce302abc5dbf",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "968c5ba2-f9ef-40f1-a6f0-29ea4fad1ccd",
+      "type": "alt"
+    },
+    {
+      "id": "485c1b06-6e2b-477f-8243-8293d892f594",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "2f10b508-cc73-4634-aca2-38dcb14404d7",
+      "type": "alt"
+    },
+    {
+      "id": "66f2e8c1-a08c-4086-8f39-a3a7516b6f91",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "a9f51792-216d-459c-83a6-bfd0e676f9df",
+      "type": "alt"
+    },
+    {
+      "id": "9ee641ef-e531-4fda-8899-2c970d93b7c1",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "5871f478-4c83-478f-9659-03eedb6e28f4",
+      "type": "alt"
+    },
+    {
+      "id": "6fa705c0-2447-438f-8c39-06723a867ff2",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "ccd97ea0-5a38-4a7e-8311-77afc312ab8a",
+      "type": "alt"
+    },
+    {
+      "id": "8522500d-c48f-465a-8d79-c828f674c701",
+      "from": "817562d8-b4a2-4fab-96e0-e75452463584",
+      "to": "0498a6f3-bee8-4b42-b49a-3a3ad80abeaa",
+      "type": "alt"
+    }
+  ],
+  "viewport": {
+    "x": 14.66069992042685,
+    "y": -194.4630103222952,
+    "zoom": 0.8040962651194685
+  },
+  "bgColor": "#fce4ec"
+}
